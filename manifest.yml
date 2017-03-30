@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTWithArduino
+  host: IoTWithArduino
+  disk_quota: 1024M
+  services:
+  - IoTWithArduino-cloudantNoSQLDB
+  - IoTWithArduino-iotf-service
